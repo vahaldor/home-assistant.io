@@ -29,6 +29,7 @@ The following steps must be performed to set up this integration. For security r
 3. Hit next and select 'Customized'
 4. Pick the protocol Ecowitt, and put in the ip/hostname of your Home Assistant server.
 5. Path has to match! If using the Ecowitt App, remove the first forward slash from the API token, as the app will prepend one.
-6. Save configuration.
+6. Use 8123 port instead of the offered 80 or 443.
+7. Save configuration.
 
 Ecowitt doesn't support TLS/SSL, you can use the NGINX TLS Proxy Add-on to support HTTPS and HTTP at the same time.
